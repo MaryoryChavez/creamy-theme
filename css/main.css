@@ -37,7 +37,7 @@ header .menu {
     font-family: 'Open Sans', sans-serif;
 }
 
-header .menu a:hover {
+header .menu a:hover, header .menu a:focus {
     background-color: #f4f0bb;
     color: #da2c38;
 }
