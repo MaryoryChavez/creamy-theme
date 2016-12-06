@@ -1,0 +1,138 @@
+body {
+    background-color: #f4f0bb;
+}
+
+* h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 2.1em;
+}
+
+* p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*------------------------------------------->> HEADER <<-------------------------------------------*/
+
+header {
+    background-color: #da2c38;
+    text-align: center;
+}
+
+header a {
+    color: #f4f0bb;
+}
+
+header .logo {
+    font-family: 'Merriweather', serif;
+}
+
+header a:nth-child(2) {
+    text-decoration: none;
+    color: #f4f0bb;
+}
+
+header .menu {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .menu a:hover {
+    background-color: #f4f0bb;
+    color: #da2c38;
+}
+
+header button {
+    color: #f4f0bb;
+    box-shadow: 0 0 0 1px #f4f0bb;
+}
+
+
+/*------------------------------------------->> SECTION HERO <<-------------------------------------------*/
+
+.hero {
+    text-align: center;
+    background: url('../img/creamy.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sombreado {
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.hero .marco {
+    padding-top: 190px;
+    padding-bottom: 170px;
+}
+
+.hero h1 {
+    color: #f4f0bb;
+    font-size: 3em;
+}
+
+.hero p {
+    color: #f4f0bb;
+}
+
+
+/*------------------------------------------->> SECTION SECTION1 <<-------------------------------------------*/
+
+.section1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section1 img {
+    width: 90%;
+}
+
+.section1 .texto {
+    color: #da2c38;
+}
+
+.section1 p {
+    padding-top: 10px;
+}
+
+
+/*------------------------------------------->> SECTION SECTION2 <<-------------------------------------------*/
+
+.section2 {
+    text-align: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #da2c38;
+    color: #f4f0bb;
+}
+
+
+/*------------------------------------------->> SECTION SECTION3 <<-------------------------------------------*/
+
+.section3 {
+    text-align: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #da2c38;
+}
+
+.section3 i {
+    font-size: 5em;
+}
+
+
+/*------------------------------------------->> SECTION FOOTER <<-------------------------------------------*/
+
+footer {
+    background-color: #da2c38;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-family: 'Merriweather', serif;
+    color: #f4f0bb;
+}
